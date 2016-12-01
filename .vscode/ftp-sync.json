@@ -1,0 +1,16 @@
+{
+    "remotePath": "./",
+    "host": "ftp.danieljackson.altervista.org",
+    "username": "danieljackson",
+    "password": "2acq628210",
+    "port": 21,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": true,
+    "debug": false,
+    "privateKeyPath": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git"
+    ]
+}

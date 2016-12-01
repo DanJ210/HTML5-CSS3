@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="layout.css" media="screen"/>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="form, HTML5, Chapter6">
+        <meta name="description" content="HTML Form Practice">
+        <meta name="author" content="Daniel Jackson">
+    </head>
+    <body>
+            <table width=100%>
+                <tr>
+                    <td class="header" width=50%><a href="http://www.daytonastate.edu"><img src="logo.png"></td>
+                    <td class="header" width=50%>Computer Science</td>
+                </tr>
+                <tr>
+                    <td class="horizontal" colspan=2 align=center>
+                        <!-- Add "rules=cols" to this table settings before finishing -->
+                        <table width=100% border=3 bordercolor=black>
+                            <td class="horizontal">Students</td>
+                            <td class="horizontal">Faculty</td>
+                            <td class="horizontal">Contact</td>
+                            <td class="horizontal">Drama</td>
+                            <td class="horizontal">Testing</td>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <table>
+                        <tr>
+                            <td class="vertical">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Computer Programming</a></li>
+                                        <li><a href="#">Computer Specialist</a></li>
+                                        <li><a href="#">Information Technology Analysis</a></li>
+                                        <li><a href="#">Information Technology Management</a></li>
+                                        <li><a href="#">Network System Developer</a></li>
+                                        <li><a href="#">Web Development Specialist</a></li>
+                                    </ul>
+                                </nav>
+                            </td>
+                            <td>
+                                <td class="form" >
+                                    <h1 class="title">Graduation Fee Payment Form</h1>
+                                    <form method="post">
+                                        <fieldset class="billing">
+                                            <legend class="legend">
+                                                Billing Information (Required)
+                                            </legend>
+                                            First Name: <input size="70%" align="right" type="text" name="fname" width="25px"></br>
+                                            Last Name: <input type="text" name="lname"></br>
+                                            Street Address: <input type="text" name="address"></br>
+                                            Street Address(2):<input type="text" name="address2"></br>
+                                            City: <input type="text" name="city"></br>
+                                            State: <select>
+                                                        <option value="fl">AL</option>
+                                                        <option value="ak">AK</option>
+                                                        <option value="az">AZ</option>
+                                                        <option value="ar">AR</option>
+                                                        <option value="ca">CA</option>
+                                                        <option value="co">CO</option>
+                                                        <option value="ct">CT</option>
+                                                        <option value="de">DE</option>
+                                                        <option value="fl"
+                                                            selected="selected">FL</option>
+                                                        <option value="ga">GA</option>
+                                                        <option value="hi">HI</option>
+                                                        <option value="id">ID</option>
+                                                        <option value="il">IL</option>
+                                                        <option value="in">IN</option>
+                                                        <option value="ia">IA</option>
+                                                        <option value="ks">KS</option>
+                                                        <option value="ky">KY</option>
+                                                        <option value="la">LA</option>
+                                                        <option value="me">ME</option>
+                                                        <option value="md">MD</option>
+                                                        <option value="ma">MA</option>
+                                                        <option value="mi">MI</option>
+                                                        <option value="mn">MN</option>
+                                                        <option value="ms">MS</option>
+                                                        <option value="mo">MO</option>
+                                                        <option value="mt">MT</option>
+                                                        <option value="ne">NE</option>
+                                                        <option value="nv">NV</option>
+                                                        <option value="nh">NH</option>
+                                                        <option value="nj">NJ</option>
+                                                        <option value="nm">NM</option>
+                                                        <option value="ny">NY</option>
+                                                        <option value="nc">NC</option>
+                                                        <option value="nd">ND</option>
+                                                        <option value="oh">OH</option>
+                                                        <option value="ok">OK</option>
+                                                        <option value="or">OR</option>
+                                                        <option value="pa">PA</option>
+                                                        <option value="ri">RI</option>
+                                                        <option value="sc">SC</option>
+                                                        <option value="sd">SD</option>
+                                                        <option value="tn">TN</option>
+                                                        <option value="tx">TX</option>
+                                                        <option value="ut">UT</option>
+                                                        <option value="vt">VT</option>
+                                                        <option value="va">VA</option>
+                                                        <option value="wa">WA</option>
+                                                        <option value="wv">WV</option>
+                                                        <option value="wi">WI</option>
+                                                        <option value="wy">WY</option>
+                                                    </select></br>
+                                                    Zip/Postal Code<input type-"text" name="zip"></br>
+                                                    Country<input type="text" name="country" placeholder="United States"></br>
+                                                    Phone<input type="text" name="phone"></br>
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend class="legend">Credit Card (Required)</legend>
+                                            <div style="position:relative; left:150px;">
+                                            <fieldset id="radio" style="float:clear">
+                                                <input type="radio" name="credit" value="disc">
+                                                <img src="Pics/discover.png"></input>
+                                                <input type="radio" name="credit" value="mc">
+                                                <img src="Pics/master.png"></input>
+                                                <input type="radio" name="credit" value="visa">
+                                                <img src="Pics/visa.png"></input>
+                                            </fieldset>
+                                            </div>
+                                            Card Number<input style="width:75%; float:right;" type="text" name="cnumber"></br>
+                                            Expiration Date<select>
+                                                <option>Month</option>
+                                                </select>
+                                                <select>
+                                                    <option>Year</option>
+                                                </select></br>
+                                            CSC:<input style="width:75%; float:right;" type="text" name="csc">
+                                        </fieldset>
+                                        <fieldset class="additional">
+                                            <legend class="legend">Additional Information</legend>
+                                            Contact E-mail<input type="text" name="email"></br>
+                                            Special Notes<textarea style="float:right" cols="60" rows="10" type="text" name="notes"></textarea></br>
+                                        </fieldset>
+                                        <fieldset class="submit">
+                                        <input type="submit" Value="Submit"/>
+                                        </fieldset>
+                                    </form>
+                                </td>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </tr>
+                
+            </table>
+            <address>Daytona State College 1200 W. International Blvd., Daytona Beach, Florida 32114 &#183; (386) 506-3000</address>
+    </body>
+</html>

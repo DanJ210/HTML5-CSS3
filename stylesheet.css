@@ -1,0 +1,65 @@
+p {
+    
+}
+
+body {
+    background-color: gray;
+}
+
+h3 {
+    text-align:center;
+}
+
+h5 {
+    text-align:center;
+}
+
+#nav1 li {
+    margin-left:5px;
+    padding:5px;
+    border-left:1px solid;
+}
+
+#sidebar {
+    background-color:steelblue;
+    width:100px;
+    padding:5px;
+}
+
+#Summary {
+    padding-left:100px;
+    padding-right:100px;
+}
+
+#List1 {
+    /*background-color: red;*/
+    float:left;
+    width:200px;
+    
+}
+
+#List2 {
+    background-color: purple;
+    float:left;
+    width:200px;
+}
+
+#experience {
+    background-color:green;
+    float:right;
+}
+
+#List3 {
+    padding-left:30px;
+}
+
+.image {
+    float:right;
+    height:150px;
+    width:250px;
+}
+
+.header {
+    background-color: yellow;
+}
+

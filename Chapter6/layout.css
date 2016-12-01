@@ -1,0 +1,95 @@
+/* The set of styling below here covers the header
+and top navigation bar area. */
+.header {
+    background-color:black;
+    font-size:40px;
+    color:white;
+    text-align:center;
+}
+
+.horizontal  {
+    color:white;
+    text-align:center;
+    background-color:blue;
+}
+.vertical {
+    vertical-align:top;
+}
+.vertical ul li{
+    list-style-type:none;
+    text-align:left;
+    line-height:36px;
+    
+}
+/* Below here is the body and content styling. */
+body {background-image:url(parch.jpg);}
+
+.title {
+    background-color:black;
+    color:teal;
+    text-align:center;
+}
+
+.form {
+   vertical-align:top;
+}
+
+.legend {
+    background-color:orange;
+    width:100%;
+}
+
+.billing input {
+    float:right;
+    width:75%;
+}
+.billing select {
+   
+}
+.credit input{
+    width:75%;
+    float:right;
+}
+.additional input{
+    width:75%;
+    float:right;
+}
+#radio {
+    border: 1px solid green;
+    width:50%;
+}
+.submit {
+    text-align:center;
+}
+address {
+    text-align:center;
+    padding-top:15px;
+    color:green;
+}
+
+/* Added styling from chapter content, shows up red when I added though
+like there's errors. */
+
+input:focus, textarea:focus {
+    background-color:rgb(225,225,240);
+}
+
+input:focus:valid {
+    background:rgb(225,240,225) url(Pics/go.png)
+    bottom right no-repeat;
+
+    -o-background-size:contain;
+    -moz-background-size:contain;
+    -webkit-background-size:contain;
+    background-size:contain;
+}
+
+input:focus:invalid {
+    background:rgb(240,225,225) url(/Pics/stop.png)
+    bottom right no-repeat;
+
+    -o-background-size:contain;
+    -moz-background-size:contain;
+    background-size:contain;
+}
+

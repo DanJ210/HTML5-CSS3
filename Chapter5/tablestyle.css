@@ -1,0 +1,58 @@
+/* The set of styling below here covers the header
+and top navigation bar area. */
+.header {
+    background-color:black;
+    font-size:40px;
+    color:white;
+    text-align:center;
+}
+.horizontal  {
+    color:white;
+    text-align:center;
+    background-color:blue;
+}
+.horizontal1 {
+    background-color:blue;
+}
+.verticle nav ul li{
+    list-style-type:none;
+    text-align:center;
+    line-height:55px;
+}
+/* Below here is the body and content styling. */
+body {background-image:url(parch.jpg);}
+
+#header1 {
+    background-color:black; 
+    color:red;
+    text-align:center;
+    }
+#header2 {
+    background-color:grey;
+    color:orange;
+    text-align:center;
+}
+#header3 {
+    background-color:darkorange;
+    color:black;
+    font-size:38px;
+    text-align:center;
+    height:95px;
+}
+.content td {
+    vertical-align: top;
+    }
+#rcontent {
+    background-color:peachpuff;
+    padding-top:3px;
+    margin-top:20px;
+}
+.content3 {
+    padding-left:25px;
+    padding-right:25px;
+    padding-bottom:25px;
+}
+#address {
+    text-align:center;
+    padding-top:15px;
+}

@@ -1,0 +1,68 @@
+﻿header h1 {
+    color:#D2E1FF;
+    font-size:45px;
+}
+
+header img {
+    float:left;
+}
+
+nav.horizontal ul {
+    padding:10px;
+    margin:0px;
+}
+
+nav.horizontal a{
+    color:white;
+    text-decoration:none;
+}
+
+nav.horizontal a:hover{
+    color:red;
+    font-size:29px;
+    text-decoration:none;
+    font-family:inherit;
+}
+
+nav.vertical a{
+    text-decoration:none;
+}
+
+nav.verticle a:hover{
+    color:red;
+    
+}
+
+section {
+    float:left;
+    width:45%;
+}
+
+article#a1 h1 {
+    height:50px;
+    color:orange;
+}
+
+article#a2 h1 {
+    height:50px;
+    color:orange;
+}
+
+aside h1 {
+    background-color:rgba(128, 128, 128,0.5);
+    height:50px;
+    text-align:center;
+}
+
+aside {
+    background-color:peachpuff;
+}
+
+address {
+    text-align:center;
+    font-style:normal;
+    font-variant:small-caps;
+    color:green;
+    font-size:12px;
+    font-family:'Arial Black', 'Gadget', sans-serif;
+}

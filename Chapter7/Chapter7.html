@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <!-- Linking stylesheet -->
+            <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+            <title>Daniel Jackson - Chapter 5 - Tables</title>
+        </head>
+        <body>
+            <!-- Remember that I'm styling the entire table with the header class having
+            a black background around the navigation bar.  -->
+            <table class="logo" width=100% height=100 border=1 bordercolor=black cellspacing=0>
+                <tr>
+                    <td class="header"width=50%><a href="http://www.daytonastate.edu"><img src="logo.png"></td>
+                    <td class="header">Computer Science</td>
+                </tr>
+                <tr>
+                    <td class="horizontal1" colspan=2 align=center>
+                        <!-- Add "rules=cols" to this table settings before finishing -->
+                        <table width=80% border=3 bordercolor=black >
+                            <td class="horizontal">Students</td>
+                            <td class="horizontal">Faculty</td>
+                            <td class="horizontal">Contact</td>
+                            <td class="horizontal">Drama</td>
+                            <td class="horizontal">Testing</td>
+                        </table>
+                    </td>
+                </tr>
+                <table class="content" width=100% height=1000 border=1 bordercolor=black>
+                    <tr>
+                        <td class="verticle" width=25% height=800>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Computer Programming</a></li>
+                                    <li><a href="#">Computer Specialist</a></li>
+                                    <li><a href="#">Information Technology Analysis</a></li>
+                                    <li><a href="#">Information Technology Management</a></li>
+                                    <li><a href="#">Network System Developer</a></li>
+                                    <li><a href="#">Web Development Specialist</a></li>
+                                </ul>
+                            </nav>
+                        </td>
+                        <td width=35%>
+                            <h1 id="header1">History of Daytona State College</h1>
+                                <p id="mcontent">
+                                    Over the past 50-plus years, Daytona State College has evolved from a small campus into an academically superior multi-campus
+					                institution providing educational and cultural programs for the citizens of Volusia and Flagler counties. It began in 1957
+					                when the Florida Legislature authorized Daytona Beach Junior College as one of the state's first comprehensive colleges.
+					                Daytona State College is accredited by the Southern Association of Colleges and Schools Commission on Colleges
+					                to award associate and bachelors degrees. Contact the Commission on Colleges at 1866 Southern Lane, Decatur, Georgia 30033-4097
+					                or call 404-679-4500 for questions about the accreditation of Daytona State College.
+                                </p>
+                            <h1 id="header2">About Computer Science</h1>
+                                <p id="bcontent">
+                                    While the computing field is one of the fastest growing segments of industry, it is also one of the fastest changing areas
+                                    technologically. Computing professionals education does not stop with the college degree, but continues with seminars, conferences,
+                                    and advanced courses and training. In computer theory and applications, new ideas are developed every day. Success requires
+                                    an ongoing commitment to learning to maintain knowledge, skills and career opportunities.
+                                </p>
+                        </td>
+                        <td width=40%>
+                            <div id="rcontent">
+                            <h1 id="header3">Gainful Employment</h1>
+                            <p class="content3">The U.S. Department of Education requires colleges to disclose a variety of information for any financial aid eligible program
+                                that prepares students for gainful employment in a recognized occupation. The information provided here describes the 
+                                graduation rates, the median debt of students who completed the program and other important information regarding gainful 
+                                employment for the latest completed academic year (as of July 1).
+                            </p>
+                            <p class="content3">
+                            <cite>&mdash;US Labor Department</cite>
+                            </p>
+                            </div>
+                            <div id="video">
+                                <!-- I would use different formats for different browsers
+                                depending on what I want to include. But for this I don'tabs
+                                need to as much. I took out the looping of the audio -->
+                                <h3>Welcome to ATC Campus</h3>
+                                <video height="250" width="420" controls>
+                                    <source src="Video/a2.mp4" type="video/mp4">
+                                    Your browser may not supoort video tag
+                                </video>
+                                <audio control="controls" autoplay="autoplay">
+                                    <source src="Audio/Audio1.mp3"/>
+                                </audio>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td id="address" colspan=3 width=1000 height=50>
+                            <address>Daytona State College 1200 W. International Speedway Blvd.,
+                                Daytona Beach, Florida 32114 &#183; (386) 506-3000</address>
+                        </td>
+                    </tr>
+                </table>
+            </table>
+        </body>
+    </html>
+</DOCTYPE>
