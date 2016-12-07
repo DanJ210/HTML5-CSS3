@@ -30,10 +30,10 @@ header{
         width:100%;
     }
     section#main nav li a{
-        color:white;
+        color:orange;
     }
     section#main nav li a:hover{
-        color:blue;
+        color:purple;
         text-decoration:underline;
         font-weight:bold;
     }
