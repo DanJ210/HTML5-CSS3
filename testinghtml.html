@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style type="text/css">
+            .dropdown {
+                color:red;
+            }
+            .dropdown ul ul {
+                /*daflkhsd;fjhads;fkh;sadlfj;ldasjfv;asl */
+                display:;
+                
+            }
+            .dropdown ul {
+                display:;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdown">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <ul>
+                <li>Test</li>
+                <li>Testing</li>
+                <li>Phone</li>
+                </ul>
+            </ul>
+        </div>
+        <div id="selection">
+            <form>
+                <select name="select" onChange="window.open" placeholder="OUr message">
+                    <option default>Select This</option>
+                    <option value="this"><a href="#">tHIS</a></option>
+                    <option value="here"><a href="index.html">Here</a></option>
+                </select>
+            </form>
+            <form > 
+                <select name="select" onChange="window.open(this.options[this.selectedIndex].value,'_blank')"> 
+                    <option value="http://www.msn.com/ ">MSN</option> 
+                    <option value="http://www.amazon.com/ ">Amazon</option> 
+                    <option value="http://www.google.com/ ">Google</option> 
+                </select> 
+            </form>
+        </div>
+    </body>
+</html>
