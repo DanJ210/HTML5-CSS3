@@ -1,0 +1,218 @@
+﻿/* Gonna be used for screens smaller than a large resolutions but bigger than a mobile phone.
+    This actually works. The background color will be green when the conditions are met, i.e.
+    not landscape. But if in landscape, the background color will be purple. So phones will see
+    purple but other computers who have the width of landscape but not the height. Would see
+    something else like green. I wanted to show my learning and knowledge of this are, called
+    responsive design. I like it!
+*/
+/* Working for landscape screens like mobile phones */
+@media screen and (orientation: landscape) {
+    #header {
+        display: none;
+    }
+    body {
+        background-color: mediumpurple;
+    }
+    /* Header styling */
+    #mobileHeader {
+        background-image: url("../pics/header/logo.jpg");
+        text-align: center;
+        background-size: cover;
+        height: 200px;
+    }
+    #mtitle {
+        color: white;
+        font-size: 280%;
+    }
+    #msubtitle {
+        color: white;
+        font-size: 180%;
+        font-style: italic;
+    }
+    #mobileHeader#horizontal {
+        
+    }
+    #mobileHeader#horizontal ul {
+        list-style: none;
+    }
+    #mobileHeader#horizontal ul li {
+        color: white;
+        background-color: orange;
+        float: left;
+        padding-left: 25px;
+        position: relative;
+        left: 55px;
+    }
+    /* body content */
+    #innercontent {
+        color: white;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    /*Styling for the metals page*/
+    .metals {
+        color: white;
+        text-align: center;
+        margin: inherit;
+    }
+    .metals img {
+        width: 50%;
+        height: 10%;
+    }
+
+    /*Styling for the gallery*/
+    #gallerycontent {
+        position: relative;
+        left: 30%;
+    }
+    .pic { /*Styling for the outer box of the gallery pics */
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border: 3px solid cornflowerblue;
+        box-shadow: dodgerblue 5px -10px 10px;
+    }
+    .pic img {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    /*Makes the first four images look upright and not sideways*/
+    .thumbnail {
+        transform: rotate(90deg);
+    }
+
+    /* Gallery picture pages from links */
+    .gallerypic {
+        position: relative;
+        left: 30%;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 50px;
+        border: 3px solid cornflowerblue;
+        box-shadow: dodgerblue 15px -20px 500px;
+    }
+    .gallerydetails {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    #rotate {
+        transform: rotate(90deg);
+    }
+
+    /*Footer styling*/
+    #footer {
+        border: 3px solid orange;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #header {
+        display: none;
+    }
+    body {
+        background-color: darkseagreen;
+    }
+    /* Header styling */
+    #mobileHeader {
+        background-image: url("../pics/header/logo.jpg");
+        text-align: center;
+        background-size: cover;
+        height: 200px;
+    }
+    #mtitle {
+        color: white;
+        font-size: 280%;
+    }
+    #msubtitle {
+        color: white;
+        font-size: 180%;
+        font-style: italic;
+    }
+    #mobileHeader#horizontal {
+        
+    }
+    #mobileHeader#horizontal ul {
+        list-style: none;
+    }
+    #mobileHeader#horizontal ul li {
+        color: white;
+        background-color: orange;
+        float: left;
+        padding-left: 5px;
+    }
+    /* body content */
+    #innercontent {
+        color: white;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    /*Styling for the metals page*/
+    .metals {
+    color: white;
+    text-align: center;
+    margin: inherit;
+    }
+    .metals img {
+    width: 50%;
+    height: 10%;
+    }
+
+    /*Styling for the gallery*/
+    #gallerycontent {
+        position: relative;
+        left: 20%;
+    }
+    .pic { /*Styling for the outer box of the gallery pics */
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .pic img {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    /*Makes the first four images look upright and not sideways*/
+    .thumbnail {
+        transform: rotate(90deg);
+    }
+
+    /*Footer styling*/
+    #footer {
+        border: 3px solid orange;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media-windows8-snapmode {
+    /*  Snapping windows in Windows 8/10 which
+        is really really cool and I liked using
+        it a lot.
+    */
+    #mobileheader, map {
+        display: none;
+    }
+}

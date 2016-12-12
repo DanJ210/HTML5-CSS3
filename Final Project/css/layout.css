@@ -1,0 +1,182 @@
+/* Hiding mobile elements
+    Playing with screen sizes */
+
+@media screen and (min-width: 1024px) {
+    #mobileHeader {
+        display: none;
+    }   
+}
+
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../pics/header/front.jpg");
+}
+
+/* Styling the header on large screens */
+#bluebar {
+    width: 100%;
+    height: 50px;
+    background-color: deepskyblue;
+}
+#header {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url("../pics/header/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: deepskyblue 42px 25px 15px;
+}
+#title {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+#subtitle {
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+}
+#horizontal {
+    
+}
+#horizontal ul {
+    list-style-type: none;
+    display: inline-block;
+}
+#horizontal ul li {
+    background-color: rgba(60,179,113,.5);
+    float: left;
+    color: white;
+    font-size: 55px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Body elements */
+/* Outer div for countent */
+.outtercontent {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 1000px;
+    padding: 10px;
+}
+/* Content inside the div */
+#map {
+    float: left;
+}
+#innercontent {
+    color: white;
+    text-align: center;
+    float: left;
+    width: 37%;
+    padding: 40px;
+}
+
+/* Content for metals page */
+
+.metals {
+    color: white;
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin: inherit;
+}
+.metals img {
+    width: 50%;
+    height: 10%;
+    }
+
+
+/* Registration page outer content*/
+#registrationform {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 20px;
+    height: 1000px;
+    color: white;
+    
+}
+/* Registration content */
+#registrationform p {
+    text-align: center;
+}
+fieldset {
+    background-color: deepskyblue;
+}
+fieldset legend {
+    background-color: darkseagreen;
+}
+
+/* Content for Gallery  */
+#gallerycontent {
+    position: relative;
+    top: 75px;
+}
+.pic {
+ float: left;
+ width: 25%;
+ height: 300px;
+ text-align: center;
+}
+.pic img {
+    width: 85%;
+    height: 200px;
+    border: 3px solid darkseagreen;
+    background-color: lightskyblue;
+    transform: rotate(25deg);
+    box-shadow: deepskyblue 15px 20px 100px;
+}
+
+/* Gallery picture pages from links */
+.gallerypic {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 32%;
+    
+}
+.gallerydetails {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+}
+#rotate{
+    transform: rotate(90deg);
+}
+
+
+/* Enlarge image on hover */
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+    transform:rotate(85deg);
+}
+.thumbnail2:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+    transform:rotate(-15deg);
+}
+/* footer content */
+
+#footer {
+    color: white;
+    font-size: 45px;
+    height:50px;
+    text-align: center;
+    background-color: deepskyblue;
+}
